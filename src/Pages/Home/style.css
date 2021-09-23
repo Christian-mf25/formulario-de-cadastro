@@ -1,0 +1,56 @@
+#success{
+	height: 100vh;
+	width: 100vw;
+
+	background-image: url("../../assets/lagoinha.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.succes-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	height: 30vh;
+	width: 80vw;
+
+	border-radius: 20px;
+
+	background-color: #ffffffc4;
+}
+
+.text h2{
+	margin-top: 17px;
+}
+
+.text{
+	color: #6d5145;
+}
+
+@media (min-width:400px){
+	.succes-container{
+		max-width: 335px;
+		height: 25vh;
+	}
+	
+	.text h2{
+		font-size: 1.8rem;
+	}
+
+	.css-kjirbw-MuiButtonBase-root-MuiButton-root{
+		width: 150px;
+	}
+
+	.text p{
+		font-size: 1.2rem;
+		font-weight: 600;
+	}
+
+}
